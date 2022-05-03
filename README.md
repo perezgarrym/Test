@@ -13,5 +13,10 @@ payload
 
 # SETUP 
 
-import SQL use mySQL as database
+import SQL use mySQL as database \n
 test.sql
+
+
+# UNIT TESTING 
+http://test.r4pidev.com use this host name on local \n
+run php vendor/bin/phpunit test/CheckoutTest.php
